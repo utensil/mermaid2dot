@@ -1,0 +1,19 @@
+{
+  "name": "mermaid2dot",
+  "version": "0.0.1",
+  "description": "Convert mermaid flowchart to Graphviz/Dot syntax",
+  "repository": "https://github.com/utensil/mermaid2dot.git",
+  "main": "index.js",
+  "scripts": {
+    "inspect": "babel bin/inspect.js|node"
+  },
+  "author": "utensil",
+  "license": "MIT",
+  "dependencies": {
+    "handlebars": "^3.0.3",
+    "mermaid": "^0.4.0"
+  },
+  "devDependencies": {
+    "babel": "^5.3.3"
+  }
+}
