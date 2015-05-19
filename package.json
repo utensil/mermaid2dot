@@ -5,7 +5,7 @@
   "repository": "https://github.com/utensil/mermaid2dot.git",
   "main": "index.js",
   "scripts": {
-    "inspect": "babel bin/inspect.js|node"
+    "inspect": "babel-node bin/inspect.js"
   },
   "author": "utensil",
   "license": "MIT",
